@@ -3,6 +3,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils import executor
 import logging
 import asyncio
+from datetime import datetime  # ← ЦЕ ОБОВʼЯЗКОВО
 
 from config import API_TOKEN, ADMINS
 import db
